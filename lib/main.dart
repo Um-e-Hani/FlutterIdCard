@@ -25,7 +25,7 @@ class _IdCardState extends State<IdCard> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.add),
-        backgroundColor: Colors.grey[400],
+        backgroundColor: Colors.red[600],
       ), // FloatingActionButton
       body: Padding(
         padding: EdgeInsets.all(30.0),
