@@ -4,19 +4,12 @@ void main() => runApp(MaterialApp(
       home: IdCard(),
     )); //MaterialApp
 
-class IdCard extends StatelessWidget {
+class IdCard extends StatefulWidget {
   @override
-  Widget build(BuildContext context) {
-    return 
-  }
+  _IdCardState createState() => _IdCardState();
 }
 
-class Widget extends StatefulWidget {
-  @override
-  _WidgetState createState() => _WidgetState();
-}
-
-class _WidgetState extends State<Widget> {
+class _IdCardState extends State<IdCard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -109,5 +102,12 @@ class _WidgetState extends State<Widget> {
         ), //Column
       ), //Padding
     ); // Scaffold
+  }
+}
+
+class _WidgetState extends State<Widget> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
