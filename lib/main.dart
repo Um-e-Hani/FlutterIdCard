@@ -10,6 +10,8 @@ class IdCard extends StatefulWidget {
 }
 
 class _IdCardState extends State<IdCard> {
+  int currLevel = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -68,7 +70,7 @@ class _IdCardState extends State<IdCard> {
               height: 5.0,
             ), // SizedBox
             Text(
-              "3",
+              "$currLevel",
               style: TextStyle(
                 letterSpacing: 2.0,
                 color: Colors.red[600],
