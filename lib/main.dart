@@ -99,3 +99,15 @@ class IdCard extends StatelessWidget {
     ); // Scaffold
   }
 }
+
+class Widget extends StatefulWidget {
+  @override
+  _WidgetState createState() => _WidgetState();
+}
+
+class _WidgetState extends State<Widget> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
