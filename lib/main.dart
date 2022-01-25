@@ -7,6 +7,18 @@ void main() => runApp(MaterialApp(
 class IdCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    return 
+  }
+}
+
+class Widget extends StatefulWidget {
+  @override
+  _WidgetState createState() => _WidgetState();
+}
+
+class _WidgetState extends State<Widget> {
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[400],
       appBar: AppBar(
@@ -97,17 +109,5 @@ class IdCard extends StatelessWidget {
         ), //Column
       ), //Padding
     ); // Scaffold
-  }
-}
-
-class Widget extends StatefulWidget {
-  @override
-  _WidgetState createState() => _WidgetState();
-}
-
-class _WidgetState extends State<Widget> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
   }
 }
