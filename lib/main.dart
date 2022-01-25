@@ -104,10 +104,3 @@ class _IdCardState extends State<IdCard> {
     ); // Scaffold
   }
 }
-
-class _WidgetState extends State<Widget> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
