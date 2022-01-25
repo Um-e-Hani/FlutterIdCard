@@ -24,7 +24,9 @@ class _IdCardState extends State<IdCard> {
       ), //Appbar
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          currLevel += 1;
+          setState(() {
+            currLevel += 1;
+          });
         },
         child: Icon(Icons.add),
         backgroundColor: Colors.red[600],
